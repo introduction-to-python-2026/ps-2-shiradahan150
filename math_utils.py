@@ -1,7 +1,7 @@
 def find_max_number(num1, num2, num3):
   max_num = 0
   if num1 >= num2:
-    max_num
+    max_num = num1
   else:
     max_num = num2
   if num3 >= max_num:
