@@ -15,12 +15,11 @@ def find_mean(num1, num2, num3):
   return sum/3
 
 def find_mean_std(num1, num2, num3):
-    mean = find_mean(num1, num2, num3)
-    data = [num1, num2, num3]
-    mean = find_mean(num1, num2, num3)
+  data = [num1, num2, num3]
+  mean = find_mean(num1, num2, num3)
 
-    variance = sum((x - mean) ** 2 for x in data) / len(data)
-    std = variance ** 0.5
+  variance = sum((x - mean) ** 2 for x in data) / len(data)
+  std = variance ** 0.5
 
-    return mean, std
+  return mean, std
 
